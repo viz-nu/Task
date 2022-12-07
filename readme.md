@@ -1,3 +1,13 @@
+API to store messages from whatsApp and store them in mongoDb
+also use search keyword to search for string that follows in the conversation so far
+
+step 1
+
+Here used a dummy resquest json from webhooks as it is below
+
+
+
+
 req={
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "api_version": "2010-04-01",
@@ -22,3 +32,11 @@ req={
   "to": "+15558675310",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }
+
+
+
+step 2 mongo is connected to server using dbconnect.js file via express server
+
+
+step3 api request and response cycle
+
